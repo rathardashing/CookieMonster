@@ -3239,6 +3239,7 @@ CM.Sim.CalculateGains = function() {
 	if (CM.Sim.Has('A lump of coal')) mult *= 1.01;
 	if (CM.Sim.Has('An itchy sweater')) mult *= 1.01;
 	if (CM.Sim.Has('Santa\'s dominion')) mult *= 1.2;
+	if (CM.Sim.Has('Dragon scale')) mult *= 1.03;
 
 	if (CM.Sim.Has('Fortune #100')) mult *= 1.01;
 	if (CM.Sim.Has('Fortune #101')) mult *= 1.07;
